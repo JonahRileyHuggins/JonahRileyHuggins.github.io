@@ -1,0 +1,5 @@
+<div class="leftcontainer">
+<button onclick="myFunction()" type="submit" name="" value=""><h2>The Scientist</h2><img src="Images/Science.png" width="30px" height="30px" /></button>
+ <div id="leftDiv">
+   <h2>the Scientist</h2>
+</div>
