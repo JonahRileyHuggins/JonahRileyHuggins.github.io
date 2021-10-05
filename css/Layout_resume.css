@@ -28,7 +28,7 @@ body, html {
 /* adding skills box to side of resume */
 .skillsdiv {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   position: absolute;
@@ -42,7 +42,7 @@ body, html {
 
 .download {
   background-color: rgb(0,0,0); /* Fallback color*/
-  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through*/
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through*/
   color: white;
   font-weight: bold;
   position: absolute;
@@ -73,7 +73,7 @@ body, html {
 /* Position text in the middle of the page/image */
 .myDiv {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
   color: white;
   font-weight: initial;
   overflow: hidden;
