@@ -40,7 +40,7 @@ body, html {
   padding: 20px;
   text-align: left;
   display: hidden;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 /* Add a black background color to the top navigation */
