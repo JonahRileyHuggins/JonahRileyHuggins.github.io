@@ -34,12 +34,13 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 1;
   width: 80%;
   height: 550px;
   padding: 20px;
   text-align: left;
   display: hidden;
+  overflow: scroll;
 }
 
 /* Add a black background color to the top navigation */
@@ -144,4 +145,5 @@ h3, h4 {
   width: 100%;
   background-color: #333;
   text-align: center;
+  z-index: 3;
 }
