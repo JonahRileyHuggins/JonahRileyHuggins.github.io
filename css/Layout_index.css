@@ -145,6 +145,7 @@ h2 {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  max-width: 100%;
 }
 
 /* Add a hover effect */
