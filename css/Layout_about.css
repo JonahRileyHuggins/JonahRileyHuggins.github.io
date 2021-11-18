@@ -57,12 +57,12 @@ body, html {
   text-align: center;
   padding: 17px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.55vw;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ccc;
   color: black;
 }
 
@@ -133,7 +133,7 @@ h3, h4 {
   display: hidden;
   float: left;
   padding: 0px 12px;
-  border: 1px solid #ccc;
+  border: none;
   width: 70%;
   border-left: none;
   height: 500px;
