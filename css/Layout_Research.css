@@ -133,3 +133,7 @@ h3, h4 {
 /*Tab div for making paragraphs look proper*/
 .tab2 { margin-left: 50px;
         font-weight: bold;}
+
+p.italic { font-style: italic;
+
+}
