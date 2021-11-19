@@ -10,7 +10,8 @@ body, html {
 .bg-image {
   /* The image used */
   background-image: url("Images/Gels-3.png");
-    background-repeat: repeat;
+  background-repeat: repeat;
+  
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
