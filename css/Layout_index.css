@@ -140,6 +140,7 @@ h2 {
 
 /* Adding Social Media Icons, styling and positioning */
 .fa {
+  border-radius: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 30px;
@@ -167,7 +168,6 @@ h2 {
 
 /* GitHub */
 .fa-github {
-  border-radius: 10px;
   position: absolute;
   background: black;
   color: white;
