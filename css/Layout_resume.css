@@ -1,5 +1,5 @@
 body, html {
-  height: 2000px;
+  height: 112%;
   Background-color: black;
 }
 
@@ -11,7 +11,6 @@ body, html {
   /* The image used */
   background-image: url("Images/Gels-3.png");
   background-repeat: repeat;
-  z-index: -1;
 
   /* Add the blur effect */
   filter: blur(1px);
@@ -25,105 +24,11 @@ body, html {
   background-size: auto;
 }
 
-/* adding skills box to side of resume */
-.skillsdiv {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  top: 100px; left: 1%;
-  z-index: 2;
-  width: 24%;
-  height: auto;
-  padding: 10px;
-  text-align: left;
-}
-
-.download {
-  background-color: rgb(0,0,0); /* Fallback color*/
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through*/
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  top: 160%;
-  left: 1%;
-  z-index: 2;
-  width: 24%;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Style buttons */
-.btn {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: white;
-  color: black;
-}
-/* Position text in the middle of the page/image */
-.myDiv {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: initial;
-  overflow: hidden;
-  position: absolute;
-  top: 100px;
-  left: 0%;
-  transform: translate(33.5%, 0%);
-  z-index: 2;
-  width: 74.5%;
-  padding: 20px;
-  text-align: center;
-}
-
-/* education div's placed inside main resume*/
-.myDiv2 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.0); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  font-size: 50%;
-
-  position: absolute;
-  top: 8.0%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 45%;
-  padding: 20px;
-  text-align: left;
-}
-.myDiv3 {
-
-  color: white;
-  font-weight: bold;
-  Font-size: 50%;
-
-  position: absolute;
-  top: 8.0%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 45%;
-  padding: 10px;
-  text-align: left;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
   overflow: hidden;
-  font-size: 1vw;
+  z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -138,7 +43,7 @@ body, html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ccc;
   color: black;
 }
 
@@ -147,7 +52,8 @@ body, html {
   background-color: #04AA6D;
   color: white;
 }
-/*Adding the page title to the top nav bar area*/
+
+/*Adding the page title to the top nav bar area */
 .seentitle {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.0); /* Black w/opacity/see-through */
@@ -163,11 +69,55 @@ body, html {
   text-align: left;
   font-size: 1vw;
 }
-.resumeDiv {
-	text-align: right;}
-h3, h4 {
-	line-height: 0.6;}
+/* Position text in the middle of the page/image */
+.myDiv {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: initial;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  z-index: 2;
+  width: 80%;
+  height: 110%;
+  padding: 20px;
+  text-align: left;
+  display: hidden;
+  overflow: scroll;
+}
+.download {
+  background-color: rgb(0,0,0); /* Fallback color*/
+  background-color: rgba(0,0,0, 0.0); /* Black w/opacity/see-through*/
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 100%;
+  left: 32.5%;
+  z-index: 1;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
 
+/* Style buttons */
+.btn {
+  background-color: Black;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: white;
+  color: black;
+}
 .footer {
   position: fixed;
   left: 0%;
