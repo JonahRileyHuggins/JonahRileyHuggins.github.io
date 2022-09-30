@@ -4,6 +4,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+var scale = window.outerWidth / 1280;
+
+$('head').append('<meta name="viewport" content="width=1280, initial-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=0">');
 <title>Jonah's Personal Website</title>
 		<!--Linking in css file in the folder css-->
 	<link href="css/graphics_index.css" type="text/css"
